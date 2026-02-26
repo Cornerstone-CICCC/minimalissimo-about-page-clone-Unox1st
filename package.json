@@ -7,8 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx serve ."
+    "start": "npx browser-sync start --server --files '*.html, *.css'"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
   },
   "homepage": "https://github.com/Cornerstone-CICCC/minimalissimo-about-page-clone-Unox1st#readme",
   "devDependencies": {
+    "browser-sync": "^3.0.0",
     "serve": "^14.2.5"
   }
 }
